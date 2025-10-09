@@ -1,3 +1,4 @@
+
 Number=[10,20,55,60,70]
 print(Number)
 
@@ -18,3 +19,14 @@ print(Number)
 
 Number.remove(70)
 print(Number)
+
+
+
+
+
+
+
+
+
+
+
