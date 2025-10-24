@@ -1,8 +1,21 @@
-print("How many numbers you want to enter")
-n = int(input())
-L1 = []
-i = 0
-while i < n:
-    L1.append(int(input("Enter a number ")))
-    i = i + 1
-print(L1)
+First=input("enter a 1st no = ")
+opration=input("+,-,*,/, =   ")
+Second=input("enter a 2nd no.= ")
+
+First=int(First)
+Second=int(Second)
+
+if opration == "+":
+    print(First+Second )
+
+elif opration == "-":
+    print(First-Second )
+
+elif opration == "*":
+    print(First*Second)
+
+elif opration == "/":
+    print(First/Second)
+
+else :                   
+    print("not validation ")
