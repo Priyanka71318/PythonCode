@@ -1,4 +1,4 @@
-"""# converted decimal to hexadecimal26
+# converted decimal to hexadecimal26
 num=int(input("enter a decimal number:- "))
 hexa=hex(num)[2:] # [2:] is a inindex 2 se stard to ending index
 print("Hexadecimal:-",hexa)
@@ -19,7 +19,7 @@ c = input("enter a charcter")
 print(type(c))
 
 d = input("enter a boolen value ")
-print(type(d))"""
+print(type(d))
 
 num = int(input("Enter a number: "))
 
